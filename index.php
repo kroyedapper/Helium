@@ -27,7 +27,7 @@
     		<div class="row justify-content-center">
           <div class="col-md-12 heading-section text-center ftco-animate mb-5">
           	<span class="subheading">Why Choose Us?</span>
-            <h2 class="mb-2">Top Reason Why You Need To Hire Us</h2>
+            <h2 class="mb-2">Top Reason Why You Should Hire Us</h2>
           </div>
         </div>
     	</div>
@@ -219,100 +219,26 @@
 	          <div class="heading-section">
 	            <h2 class="mb-4">ABOUT HELIUM WRITERS</h2>
 
-	            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
+	            <p>Is your business in need of quality content creation that will grab your reader’s attention and make them take notice of your business? 
+				Do you need content that is grammatically correct and guaranteed 100% original? </p>
+	            <p>Helium Writers is your number one source for the content you need, the service you want and competitive prices you can afford. </p>
+				<p><strong>Mission Statement</strong></p>
+				<p>Our mission is to be an unrivalled industry leader by providing quality contents to our customers.</p>
+				<p><strong>Our Writing Guarantee</strong></p>
+				<p>We believe in providing value to our dearly esteemed customers. 
+				Therefore, we guarantee you that your contents would be delivered in intriguing, informational and free from grammatical errors.
+				We also offer an originality guarantee that is backed up by a Copy scape screenshot provided with all deliveries.</p>
 	          </div>
 
-	          <div class="row progress-circle my-5">
-				  		<div class="col-lg-6 mb-4">
-					      <div class="bg-white">
-					        <!-- Progress bar 1 -->
-					        <div class="progress mx-auto" data-value='30'>
-					          <span class="progress-left">
-                      <span class="progress-bar border-primary"></span>
-					          </span>
-					          <span class="progress-right">
-                      <span class="progress-bar border-primary"></span>
-					          </span>
-					          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-					            <div class="h2 font-weight-bold">30<sup class="small">%</sup></div>
-					          </div>
-					        </div>
-
-					        <h2 class="h5 font-weight-bold text-center mt-3">Regular Office Employee</h2>
-					        <!-- END -->
-					      </div>
-					    </div>
-
-					    <div class="col-lg-6 mb-4">
-					      <div class="bg-white">
-					        <!-- Progress bar 1 -->
-					        <div class="progress mx-auto" data-value='75'>
-					          <span class="progress-left">
-                      <span class="progress-bar border-primary"></span>
-					          </span>
-					          <span class="progress-right">
-                      <span class="progress-bar border-primary"></span>
-					          </span>
-					          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-					            <div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
-					          </div>
-					        </div>
-
-					        <h2 class="h5 font-weight-bold text-center mt-3">Virtual Assistant Employee</h2>
-					        <!-- END -->
-					      </div>
-					    </div>
-				  	</div>
+	         
 					</div>
 				</div>
 			</div>
 		</section>
 
-  <?php //include("includes/testimonial.php") ?>
+<?php //include("includes/testimonial.php") ?>
 
-    <section class="ftco-section ftco-no-pb bg-light">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5 mb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-          	<span class="subheading">Procedure</span>
-            <h2>How It Works</h2>
-          </div>
-        </div>
-    		<div class="row no-gutters">
-    			<div class="col-md-4 d-flex align-items-stretch ftco-animate">
-    				<div class="services-2">
-    					<span class="number">01</span>
-    					<h2>Handling <br>The Task</h2>
-    					<div class="text">
-	    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	    					<span class="icon flaticon-loan"></span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4 d-flex align-items-stretch ftco-animate">
-    				<div class="services-2 active">
-    					<span class="number">02</span>
-    					<h2>Creating <br>To-Do List</h2>
-    					<div class="text">
-    						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	    					<span class="icon flaticon-document"></span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4 d-flex align-items-stretch ftco-animate">
-    				<div class="services-2">
-    					<span class="number">03</span>
-    					<h2>Schedule <br>A Meeting</h2>
-    					<div class="text">
-    						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	    					<span class="icon flaticon-fast"></span>
-	    				</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
+<?php //include("includes/procedure.php"); ?>
 
 <?php //include("includes/price-section.php"); ?>
 
@@ -342,10 +268,14 @@
 	          					<div class="select-wrap">
 	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
 	                      <select name="" id="" class="form-control">
-	                      	<option value="">Assistant Purpose</option>
-	                        <option value="">Familty Task</option>
-	                        <option value="">Online Research</option>
-	                        <option value="">Management Task</option>
+	                      	<option value="Web Content Writing">Web Content Writing</option>
+	                        <option value="Blog Writing">Blog Writing</option>
+	                        <option value="Book GhostWriting">Book GhostWriting</option>
+	                        <option value="Business Plan Writing">Business Plan Writing</option>
+							<option value="Social Media Writing">Social Media Writing</option>
+	                        <option value="Speech Writing">Speech Writing</option>
+	                        <option value="Essay Writing">Essay Writing</option>
+	                        <option value="Others">Others</option>
 	                      </select>
 	                    </div>
 			              </div>
