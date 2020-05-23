@@ -39,7 +39,7 @@ $notification = $bon->ContactUs();
 				        			<span class="fa fa-phone"></span>
 				        		</div>
 				        		<div class="text">
-					            <p><span>Phone:</span> <a href="tel://1234567920">+ 234 905 523 1805;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+234 805 479 9145 </a></p>
+					            <p><span>Phone:</span> <a href="tel://+2349055231805">+ 234 905 523 1805;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+234 805 479 9145 </a></p>
 					          </div>
 				          </div>
 								</div>
@@ -61,6 +61,7 @@ $notification = $bon->ContactUs();
 										<h3 class="mb-4">Contact Us</h3>
 										<form method="POST" id="contactForm" name="contactForm" class="contactForm">
 											<div class="row">
+											<?php echo $notification; ?>
 												<div class="col-md-6">
 													<div class="form-group">
 														<label class="label" for="name">Full Name</label>

@@ -8,7 +8,7 @@ require ("SMTP.php");
 require ("Exception.php");
 
 
-class Bonjour{
+class Helium{
 		var $con;
 		private $result, $mailresult;
 
@@ -519,86 +519,6 @@ public function __construct(){
 
     }
 
-
-     public function RegisterTraining(){
-        try{
-                if (isset($_POST['register_training'])){
-				$fullname							= $this->wordify($_POST['fullname'],0);
-				$email							    = $this->wordify($_POST['email'],1);
-                $mobile							    = $this->wordify($_POST['mobile']);
-                $location							= $this->wordify($_POST['location'],1);
-                $course_registered                  = $this->wordify($_POST['course_registered'],1);
-                $time_registered                    = Date('Y-m-d h:m:i');
-                
-                $query = "insert into bd_trainings SET
-                        fullname				=	:fullname,
-                        email				    =	:email,
-                        mobile			    	=	:mobile,
-                        location     			=	:location,
-                        course_registered		=	:course_registered,
-                        time_registered 		= 	:time_registered";
-                          
-				//echo $query; exit();
-				// prepare query for execution
-				$stmt = $this->con->prepare($query);
-				$stmt->bindParam(':fullname', $fullname);		
-				$stmt->bindParam(':email', $email);		
-				$stmt->bindParam(':mobile', $mobile);		
-                $stmt->bindParam(':location', $location);	
-                $stmt->bindParam(':course_registered', $course_registered);	
-                $stmt->bindParam(':time_registered', $time_registered);	
-
-
-                if(!$stmt->execute()){
-					return $this->just_notify("Oops! There's an error. ",2);
-				}
-				else{
-					//echo 'Yes'; exit();
-					$from = "hello@heliumwriters.com";
-					$to = "heliumwriters@gmail.com";
-					$subject = $subject;
-					$altbody			 		= 			"Open with HTML Browser";
-
-					$message = "
-					<html>
-					<body>
-					   <p>
-					    <h3><strong>Hi, William!</strong></h3></br></br>
-                               
-                                <strong>$fullname </strong> has indicated interest for $subject<br/><br/>
-                               
-								Below are the registration details of the participant:<br/>
-								Full Name:		$name<br/>
-
-								Email Address: 		$email<br/>
-
-								Subject:			$subject<br/>
-
-								Message: 			$message<br/>
-
-								Do well to contact the participant on the next step to follow. <br/><br/>
-                               
-                                Sincerely,<br/>
-                                <strong>The Helium Writers Team</strong><br/>
-                                http://www.heliumwriters.com
-					</body>
-					</html>";
-					$headers = "From: $from\n";
-					$headers .= "MIME-Version: 1.0\n";
-					$headers .= "Content-type: text/html; charset=iso-8859-1\n";
-                    // SEND EMAIL
-			 		$this->sendmail($from, $to, $fullname, $subject,$message,$altbody);
-					return $this->just_notify("Thank you for registering for our upcoming training. We would get in touch with you.");
-                    
-					}
-
-        }
-    }
-        catch(PDOException $exception){
-			echo "Connection error: " . $exception->getMessage();
-		}
-}
-
 	public function sendbulkmail($from, $subject,$message,$altbody){
 	/* 	$sql = "SELECT fullname, email from bd_trainings";
 		$stmt = $this->con->prepare($sql);
@@ -660,5 +580,5 @@ public function __construct(){
 }
 
 
-$bon = new Bonjour;
+$bon = new Helium;
 

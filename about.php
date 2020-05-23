@@ -1,5 +1,8 @@
 <?php require("includes/header.php"); ?>
-  
+  <?php require("includes/helium_libs.php"); 
+$notification = $bon->ContactUs();
+//echo $notification;exit();
+?>
     
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/heliumwriters_banner.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
@@ -50,50 +53,44 @@
     	<div class="container">
     		<div class="row d-md-flex justify-content-end">
     			<div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate">
-    				<h2 class="mb-4">Send a Message &amp; Get in touch!</h2>
-    				<form action="#" class="appointment">
-    					<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-			              <input type="text" class="form-control" placeholder="Your Name">
-			            </div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-			              <input type="text" class="form-control" placeholder="Email">
-			            </div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-			    					<div class="form-field">
-	          					<div class="select-wrap">
-	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
-	                       <select name="" id="" class="form-control">
-	                      	<option value="Web Content Writing">Web Content Writing</option>
-	                        <option value="Blog Writing">Blog Writing</option>
-	                        <option value="Book GhostWriting">Book GhostWriting</option>
-	                        <option value="Business Plan Writing">Business Plan Writing</option>
-							<option value="Social Media Writing">Social Media Writing</option>
-	                        <option value="Speech Writing">Speech Writing</option>
-	                        <option value="Essay Writing">Essay Writing</option>
-	                        <option value="Others">Others</option>
-	                      </select>
-	                    </div>
-			              </div>
-			    				</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-			              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-			            </div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-			              <input type="submit" value="Send message" class="btn btn-primary py-3 px-4">
-			            </div>
-								</div>
-    					</div>
-	          </form>
+					<h2 class="mb-4">Send a Message &amp; Get in touch!</h2>
+					<?php echo $notification; ?>
+    				<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+											<div class="row">
+											<?php echo $notification; ?>
+												<div class="col-md-6">
+													<div class="form-group">
+														<label class="label" for="name">Full Name</label>
+														<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+													</div>
+												</div>
+												<div class="col-md-6"> 
+													<div class="form-group">
+														<label class="label" for="email">Email Address</label>
+														<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="form-group">
+														<label class="label" for="subject">Subject</label>
+														<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="form-group">
+														<label class="label" for="#">Message</label>
+														<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="form-group">
+														<input type="submit" value="Send Message" class="btn btn-primary">
+														<input type="hidden" name="contact_form">
+														<div class="submitting"></div>
+													</div>
+												</div>
+											</div>
+										</form>
     			</div>
     		</div>
     	</div>
