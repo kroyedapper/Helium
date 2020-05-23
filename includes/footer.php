@@ -7,33 +7,24 @@
               <h2 class="ftco-heading-2 logo"><a href="#">Helium Writers</a></h2>
               <p>Our social media handles</p>
               <ul class="ftco-footer-social list-unstyled mt-5">
-                <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-				<li class="ftco-animate"><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                <li class="ftco-animate"><a href="https://twitter.com/Heliumwriters"><span class="fa fa-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="http://www.facebook.com/heliumwriters"><span class="fa fa-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="http://www.instagram.com/heliumwriters"><span class="fa fa-instagram"></span></a></li>
+				<li class="ftco-animate"><a href="http://www.pinterest.com/heliumwriters.com"><span class="fa fa-pinterest"></span></a></li>
+				<li class="ftco-animate"><a href="#"><span class="fa fa-whatsapp"></span></a></li>
               </ul>
             </div>
           </div>
           
-          <div class="col-sm-12 col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Legal</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Join us</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Blog</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Privacy &amp; Policy</a></li>
-                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Term &amp; Conditions</a></li>
-              </ul>
-            </div>
-          </div>
+          
           <div class="col-sm-12 col-md">
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Company</h2>
               <ul class="list-unstyled">
-                <li><a href="index.php"><span class="fa fa-chevron-right mr-2"></span>Home</a></li>
-                <li><a href="about.php"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
-                <li><a href="services.php"><span class="fa fa-chevron-right mr-2"></span>Services</a></li>
-                <li><a href="contact.php"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
+                <li><a href="index"><span class="fa fa-chevron-right mr-2"></span>Home</a></li>
+                <li><a href="about"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
+                <li><a href="services"><span class="fa fa-chevron-right mr-2"></span>Services</a></li>
+                <li><a href="contact"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
               </ul>
             </div>
           </div>
@@ -43,7 +34,7 @@
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon fa fa-map marker"></span><span class="text">We are pleased to attend to your queries</span></li>
-	                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+234 805 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+234 905 523 1805; +234 805 479 1945</span></a></li>
 	                <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">hello@heliumwriters.com</span></a></li>
 	              </ul>
 	            </div>

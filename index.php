@@ -1,5 +1,5 @@
 <?php require("includes/header.php"); ?>
-    <div class="hero-wrap" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap" style="background-image: url('images/heliumwriters_bg2.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="overlay-2"></div>
       <div class="container">
@@ -7,8 +7,8 @@
           <div class="col-md-7 ftco-animate d-flex align-items-end">
           	<div class="text w-100">
 	            <h1 class="mb-4">Save Your Precious Time &amp; Outsource Your Writing Jobs</h1>
-	            <p class="mb-4">...we are a tribe of professional writers specialized in different kinds of writing. 
-				<br>We would help your brand and organization tell her stories to meet her marketing potentials.</p>
+	            <p class="mb-4"><br><br><strong>...we are a tribe of professional writers specialized in different kinds of writing. </strong>
+				<br><br><br><strong>We would help your brand and organization tell her stories to meet her marketing potentials.</strong></p>
 	            <p><a href="contact.php" class="btn btn-primary py-3 px-4">Book Us</a></p>
             </div>
           </div>

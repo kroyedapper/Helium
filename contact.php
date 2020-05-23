@@ -1,6 +1,11 @@
 <?php require("includes/header.php");?>
+
+<?php require("includes/helium_libs.php"); 
+$notification = $bon->ContactUs();
+//echo $notification;exit();
+?>
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/heliumwriters_banner.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -24,7 +29,7 @@
 				        			<span class="fa fa-map-marker"></span>
 				        		</div>
 				        		<div class="text">
-					            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+					            <p><span>Address:</span> 28B Lifeline Road, Amike-Aba, Abakaliki, Ebonyi State</p>
 					          </div>
 				          </div>
 								</div>
@@ -34,7 +39,7 @@
 				        			<span class="fa fa-phone"></span>
 				        		</div>
 				        		<div class="text">
-					            <p><span>Phone:</span> <a href="tel://1234567920">+ 234 805 </a></p>
+					            <p><span>Phone:</span> <a href="tel://1234567920">+ 234 905 523 1805;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+234 805 479 9145 </a></p>
 					          </div>
 				          </div>
 								</div>
@@ -83,6 +88,7 @@
 												<div class="col-md-12">
 													<div class="form-group">
 														<input type="submit" value="Send Message" class="btn btn-primary">
+														<input type="hidden" name="contact_form">
 														<div class="submitting"></div>
 													</div>
 												</div>
@@ -90,9 +96,9 @@
 										</form>
 									</div>
 								</div>
-								<div class="col-md-5 d-flex align-items-stretch">
+								<?php /*<div class="col-md-5 d-flex align-items-stretch">
 									<div id="map" class="map"></div>
-								</div>
+								</div> */ ?>
 							</div>
 						</div>
 					</div>
